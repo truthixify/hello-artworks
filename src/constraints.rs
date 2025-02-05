@@ -37,7 +37,7 @@ mod tests {
 
     #[test]
     fn test() {
-        let rng = &mut ark_std::rand::rngs::StdRng::seed_from_u64(0u64);
+        let rng = &mut ark_std::rand::rngs::StdRng::seed_from_u64(100u64);
 
         println!("Creating proofs...");
 
